@@ -1,5 +1,6 @@
 /**
  * Generates a random integer between 1 and 10
+ * @return {number} randomly generated number
  */
  function rand10() {
     return Math.floor(Math.random() * 10) + 1;
@@ -7,7 +8,8 @@
 
 /**
  * Returns an array of 'n' randomly selected numbers between 1 and 10
- * @param {number} n - number of numbers (between 1 and 10) desired
+ * @param {number} n - number of numbers desired
+ * @return {array} array of 'n' random numbers between 1 and 10
  */
 function multiRand(n) {
     for (let i = 0; i < n; i++) {

@@ -1,7 +1,7 @@
 /**
  * Calculates the surface area of a rectangle from a given length and width
- * @param {number} length
- * @param {number} width
+ * @param {number} length - length of the rectangle
+ * @param {number} width - width of the rectangle
  * @return {number} surface area
  */
 function calcSurface(length, width) {

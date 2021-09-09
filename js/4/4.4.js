@@ -2,6 +2,7 @@
  * Returns an array of randomly selected Hopper students
  * @param {array} inputAr - input array of all students (their names as strings)
  * @param {number} n - number of names desired
+ * @return {array} array of 'n' names of students
  */
 function pickLearner(inputAr, n) {
     if (n > inputAr.length) {
